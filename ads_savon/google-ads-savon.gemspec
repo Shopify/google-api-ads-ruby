@@ -16,11 +16,11 @@ Gem::Specification.new do |s|
   s.rubyforge_project = s.name
   s.license = 'MIT'
 
-  s.add_dependency "nori",     "~> 2.4"
-  s.add_dependency "httpi",    "~> 2.3"
-  s.add_dependency "wasabi",   "~> 3.4"
+  s.add_dependency "nori",     "~> 2.1"
+  s.add_dependency "httpi",    ">= 1.1.0"
+  s.add_dependency "wasabi",   "~> 3.1"
   s.add_dependency "akami",    "~> 1.2"
-  s.add_dependency "gyoku",    "~> 1.2"
+  s.add_dependency "gyoku",    "~> 1.0"
 
   s.add_dependency "builder",  ">= 2.1.2"
   s.add_dependency "nokogiri", ">= 1.4.0"
